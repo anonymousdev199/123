@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://otter.cash/deposit -->
+<html lang="en" data-theme="light" style="color-scheme: light">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" href="https://otter.cash/favicon.602a81f1.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Otter is an anonymous transaction protocol on Solana. Break the link between source and destination address with zero-knowledge proofs."
+    />
+    <meta property="og:title" content="Otter Cash" />
+    <meta property="og:image" content="/icons/opengraph.png" />
+    <meta
+      property="og:description"
+      content="Anonymous transactions on Solana"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Otter Cash" />
+    <meta name="twitter:site" content="@OtterCashHQ" />
+    <meta name="twitter:creator" content="@chrisliambender" />
+    <meta
+      name="twitter:description"
+      content="Anonymous transactions on Solana"
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://otter.cash/icons/opengraph.png"
+    />
+    <link rel="manifest" href="./Deposit _ Otter Cash_files/manifest.webmanifest" />
+    <title>Deposit | Otter Cash</title>
+    <link
+      rel="stylesheet"
+      href="./Deposit _ Otter Cash_files/index.cb44d09a.css"
+    />
+    <script>
+      !(function () {
+        var t = window,
+          e = t.Intercom;
+        if ("function" == typeof e)
+          e("reattach_activator"), e("update", t.intercomSettings);
+        else {
+          var n = document,
+            a = function () {
+              a.c(arguments);
+            };
+          (a.q = []),
+            (a.c = function (t) {
+              a.q.push(t);
+            }),
+            (t.Intercom = a);
+          var c = function () {
+            var t = n.createElement("script");
+            (t.type = "text/javascript"),
+              (t.async = !0),
+              (t.src = "https://widget.intercom.io/widget/c2vvqq3t");
+            var e = n.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(t, e);
+          };
+          "complete" === document.readyState
+            ? c()
+            : t.attachEvent
+            ? t.attachEvent("onload", c)
+            : t.addEventListener("load", c, !1);
+        }
+      })();
+    </script>
+    <link href="./Deposit _ Otter Cash_files/katex.min.css" rel="stylesheet" />
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css" data-s=""></style>
+  </head>
+  <body class="chakra-ui-light" style="overflow: visible">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Deposit _ Otter Cash_files/c2vvqq3t"
+    ></script>
+    <script
+      src="./Deposit _ Otter Cash_files/index.e1186c7a.js"
+      type="module"
+    ></script>
+    <script
+      src="./Deposit _ Otter Cash_files/index.eb3ede5c.js"
+      nomodule
+      defer
+    ></script>
+    <div id="root">
+      <div class="css-1wcfl02">
+        <div class="css-13jssj4">
+          <div class="css-1gdauo5">
+            <img
+              src="./Deposit _ Otter Cash_files/otterlogo_full.9254a077.svg"
+              class="chakra-image css-0"
+            />
+          </div>
+          <div class="css-17xejub"></div>
+          <button type="button" class="chakra-button css-1n7rtbk">
+            Tutorial</button
+          ><button type="button" class="chakra-button css-if8olx">
+            Launch App
+          </button>
+          <div class="css-1c6vscd">
+            <button
+              class="wallet-adapter-button wallet-adapter-button-trigger"
+              tabindex="0"
+              type="button"
+            >
+              Select Wallet
+            </button>
+          </div>
+        </div>
+        <div class="css-gmuwbf">
+          <div class="css-1sygzun">
+            <div class="css-k008qs">
+              <div class="css-1yihn50">
+                <div class="css-1ohknyp">Deposit</div>
+              </div>
+              <div class="css-17xejub"></div>
+              <div class="css-1q1yjox">
+                <div class="css-1vba821">Withdraw</div>
+              </div>
+            </div>
+            <div class="css-1s3mhhr">
+              <div class="css-8nphub">
+                <p class="chakra-text css-5r3uyw">Amount to Deposit</p>
+                <div class="css-gocdzs">
+                  <div class="css-yizyle"></div>
+                  <div class="chakra-stack css-puy73t">
+                    <div class="chakra-stack css-4whg5r">
+                      <div class="css-1cmu2jm">
+                        <div class="css-anvo2x"></div>
+                      </div>
+                      <p class="chakra-text css-v10a6w">0.1 SOL</p>
+                    </div>
+                    <div class="chakra-stack css-4whg5r">
+                      <div class="css-1cmu2jm">
+                        <div class="css-mztio7"></div>
+                      </div>
+                      <p class="chakra-text css-v10a6w">1 SOL</p>
+                    </div>
+                    <div class="chakra-stack css-4whg5r">
+                      <div class="css-1cmu2jm">
+                        <div class="css-anvo2x"></div>
+                      </div>
+                      <p class="chakra-text css-v10a6w">10 SOL</p>
+                    </div>
+                    <div class="chakra-stack css-4whg5r">
+                      <div class="css-1cmu2jm">
+                        <div class="css-anvo2x"></div>
+                      </div>
+                      <p class="chakra-text css-v10a6w">100 SOL</p>
+                    </div>
+                    <div class="chakra-stack css-4whg5r">
+                      <div class="css-1cmu2jm">
+                        <div class="css-anvo2x"></div>
+                      </div>
+                      <p class="chakra-text css-v10a6w">1000 SOL</p>
+                    </div>
+                  </div>
+                </div>
+                <p class="chakra-text css-ut694i">
+                  Only 1 SOL is available while Otter Cash is in beta.
+                </p>
+                <button type="button" class="chakra-button css-1feq27g">
+                  Connect Wallet
+                </button>
+              </div>
+            </div>
+            <div class="css-k008qs">
+              <div class="css-17xejub"></div>
+              <div class="css-6zdon9">
+                <div class="css-1a71174">otter-relayer.sol</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="css-95e4x0">
+          <div class="css-v55njo"></div>
+          <img
+            src="./Deposit _ Otter Cash_files/footer.528ac9b1.svg"
+            class="chakra-image css-19zwluk"
+          />
+          <div class="css-pa18vl">
+            <a
+              target="_blank"
+              rel="noopener"
+              class="chakra-link css-vvex3m"
+              href="https://twitter.com/OtterCashHQ"
+              ><svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="40"
+                width="40"
+                xmlns="http://www.w3.org/2000/svg"
+                style="stroke-width: 1.6px"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                ></path></svg></a
+            ><a
+              target="_blank"
+              rel="noopener"
+              class="chakra-link css-vvex3m"
+              href="https://github.com/otter-cash"
+              ><svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="40"
+                width="40"
+                xmlns="http://www.w3.org/2000/svg"
+                style="stroke-width: 1.6px"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path></svg></a
+            ><a
+              target="_blank"
+              rel="noopener"
+              class="chakra-link css-spn4bz"
+              href="mailto:chris@otter.cash"
+              ><svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="40"
+                width="40"
+                xmlns="http://www.w3.org/2000/svg"
+                style="stroke-width: 1.6px"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <canvas
+        style="
+          top: 0px;
+          left: 0px;
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          pointer-events: none;
+        "
+      ></canvas
+      ><span id="__chakra_env" hidden=""></span>
+    </div>
+    <div class="chakra-portal">
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-top"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          margin: 0px auto;
+          top: env(safe-area-inset-top, 0px);
+          right: env(safe-area-inset-right, 0px);
+          left: env(safe-area-inset-left, 0px);
+        "
+      ></ul>
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-top-left"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          top: env(safe-area-inset-top, 0px);
+          left: env(safe-area-inset-left, 0px);
+        "
+      ></ul>
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-top-right"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          top: env(safe-area-inset-top, 0px);
+          right: env(safe-area-inset-right, 0px);
+        "
+      ></ul>
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-left"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          bottom: env(safe-area-inset-bottom, 0px);
+          left: env(safe-area-inset-left, 0px);
+        "
+      ></ul>
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          margin: 0px auto;
+          bottom: env(safe-area-inset-bottom, 0px);
+          right: env(safe-area-inset-right, 0px);
+          left: env(safe-area-inset-left, 0px);
+        "
+      ></ul>
+      <ul
+        role="region"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-right"
+        style="
+          position: fixed;
+          z-index: 5500;
+          pointer-events: none;
+          display: flex;
+          flex-direction: column;
+          bottom: env(safe-area-inset-bottom, 0px);
+          right: env(safe-area-inset-right, 0px);
+        "
+      ></ul>
+    </div>
+    <iframe
+      id="intercom-frame"
+      style="
+        position: absolute !important;
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        top: 0 !important;
+        left: 0 !important;
+        border: none !important;
+        display: block !important;
+        z-index: -1 !important;
+        pointer-events: none;
+      "
+      aria-hidden="true"
+      tabindex="-1"
+      title="Intercom"
+      src="./Deposit _ Otter Cash_files/saved_resource.html"
+    ></iframe>
+    <div class="intercom-lightweight-app">
+      <style id="intercom-lightweight-app-style" type="text/css">
+        @keyframes intercom-lightweight-app-launcher {
+          from {
+            opacity: 0;
+            transform: scale(0.5);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+
+        @keyframes intercom-lightweight-app-gradient {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        @keyframes intercom-lightweight-app-messenger {
+          0% {
+            opacity: 0;
+            transform: scale(0);
+          }
+          40% {
+            opacity: 1;
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        .intercom-lightweight-app {
+          position: fixed;
+          z-index: 2147483001;
+          width: 0;
+          height: 0;
+          font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji",
+            Helvetica, Arial, sans-serif;
+        }
+
+        .intercom-lightweight-app-gradient {
+          position: fixed;
+          z-index: 2147483002;
+          width: 500px;
+          height: 500px;
+          bottom: 0;
+          right: 0;
+          pointer-events: none;
+          background: radial-gradient(
+            ellipse at bottom right,
+            rgba(29, 39, 54, 0.16) 0%,
+            rgba(29, 39, 54, 0) 72%
+          );
+          animation: intercom-lightweight-app-gradient 200ms ease-out;
+        }
+
+        .intercom-lightweight-app-launcher {
+          position: fixed;
+          z-index: 2147483003;
+          padding: 0 !important;
+          margin: 0 !important;
+          border: none;
+          bottom: 30px;
+          right: 30px;
+          max-width: 48px;
+          width: 48px;
+          max-height: 48px;
+          height: 48px;
+          border-radius: 50%;
+          background: #84b4d9;
+          cursor: pointer;
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06),
+            0 2px 32px 0 rgba(0, 0, 0, 0.16);
+          transition: transform 167ms cubic-bezier(0.33, 0, 0, 1);
+          box-sizing: content-box;
+        }
+
+        .intercom-lightweight-app-launcher:hover {
+          transition: transform 250ms cubic-bezier(0.33, 0, 0, 1);
+          transform: scale(1.1);
+        }
+
+        .intercom-lightweight-app-launcher:active {
+          transform: scale(0.85);
+          transition: transform 134ms cubic-bezier(0.45, 0, 0.2, 1);
+        }
+
+        .intercom-lightweight-app-launcher:focus {
+          outline: none;
+        }
+
+        .intercom-lightweight-app-launcher-icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 48px;
+          height: 48px;
+          transition: transform 100ms linear, opacity 80ms linear;
+        }
+
+        .intercom-lightweight-app-launcher-icon-open {
+          opacity: 1;
+          transform: rotate(0deg) scale(1);
+        }
+
+        .intercom-lightweight-app-launcher-icon-open svg {
+          width: 24px;
+          height: 24px;
+        }
+
+        .intercom-lightweight-app-launcher-icon-open svg path {
+          fill: rgb(255, 255, 255);
+        }
+
+        .intercom-lightweight-app-launcher-icon-self-serve {
+          opacity: 1;
+          transform: rotate(0deg) scale(1);
+        }
+
+        .intercom-lightweight-app-launcher-icon-self-serve svg {
+          height: 44px;
+        }
+
+        .intercom-lightweight-app-launcher-icon-self-serve svg path {
+          fill: rgb(255, 255, 255);
+        }
+
+        .intercom-lightweight-app-launcher-custom-icon-open {
+          max-height: 24px;
+          max-width: 24px;
+
+          opacity: 1;
+          transform: rotate(0deg) scale(1);
+        }
+
+        .intercom-lightweight-app-launcher-icon-minimize {
+          opacity: 0;
+          transform: rotate(-60deg) scale(0);
+        }
+
+        .intercom-lightweight-app-launcher-icon-minimize svg path {
+          fill: rgb(255, 255, 255);
+        }
+
+        .intercom-lightweight-app-messenger {
+          position: fixed;
+          z-index: 2147483003;
+          overflow: hidden;
+          background-color: white;
+          animation: intercom-lightweight-app-messenger 250ms
+            cubic-bezier(0, 1, 1, 1);
+          transform-origin: bottom right;
+
+          width: 400px;
+          height: calc(100% - 114px);
+          max-height: 704px;
+          min-height: 250px;
+          right: 30px;
+          bottom: 94px;
+          box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+
+          border-radius: 16px;
+        }
+
+        .intercom-lightweight-app-messenger-header {
+          height: 64px;
+          border-bottom: none;
+          background: #90cba8;
+        }
+
+        .intercom-lightweight-app-messenger-footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 80px;
+          background: #fff;
+          font-size: 14px;
+          line-height: 21px;
+          border-top: 1px solid rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        }
+
+        @media print {
+          .intercom-lightweight-app {
+            display: none;
+          }
+        }
+      </style>
+      <div
+        class="intercom-lightweight-app-launcher intercom-launcher"
+        role="button"
+        tabindex="0"
+        aria-label="Open Intercom Messenger"
+        aria-live="polite"
+      >
+        <div
+          class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32">
+            <path
+              d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"
+            ></path>
+          </svg>
+        </div>
+        <div
+          class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.601 8.39897C18.269 8.06702 17.7309 8.06702 17.3989 8.39897L12 13.7979L6.60099 8.39897C6.26904 8.06702 5.73086 8.06702 5.39891 8.39897C5.06696 8.73091 5.06696 9.2691 5.39891 9.60105L11.3989 15.601C11.7309 15.933 12.269 15.933 12.601 15.601L18.601 9.60105C18.9329 9.2691 18.9329 8.73091 18.601 8.39897Z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
