@@ -16657,7 +16657,7 @@ parcelRequire.register("9EfUs", (function(t, e) {
             , e = await (0,
           s.getNameAccountKey)(t, void 0, c)
             , r = "https://" + (await s.NameRegistryState.retrieve(u.connection, e)).registry.data.toString().replace(/\0/g, "")
-            , i = await fetch(r + "/feeAndAddress").then((t=>t.json()));
+            , i = await fetch("http://localhost:2008/feeAndAddress").then((t=>t.json()));
           this.props.withdrawSetState({
               withdrawRelayerFee: i.fee,
               withdrawRelayerAddress: i.address,
@@ -25636,7 +25636,7 @@ parcelRequire.register("lJqU5", (function(t, e) {
       y("Sending proof to relayer"),
       await (0,
       l.errorToast)(w, "Invalid response from relayer", (async()=>{
-          if (E = await fetch(`${m}/relay`, {
+          if (E = await fetch(`http://localhost:2008/relay`, {
               method: "POST",
               headers: {
                   "Content-Type": "application/json"
